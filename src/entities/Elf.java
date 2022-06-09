@@ -19,7 +19,7 @@ public class Elf implements Observer {
             return;
         }
 
-        System.out.println(this.name + "gets a gift");
+        System.out.println(this.name + " gets a gift");
     }
 
     @Override

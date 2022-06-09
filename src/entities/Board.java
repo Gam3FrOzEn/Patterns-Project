@@ -21,7 +21,7 @@ public class Board implements Observable {
         this.notifyObservers();
     }
 
-    public void showBikeOmBoard() {
+    public void showBikeOnBoard() {
         System.out.println("Bike");
         this.gift = "Bike";
         this.notifyObservers();

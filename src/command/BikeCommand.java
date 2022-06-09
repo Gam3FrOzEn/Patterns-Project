@@ -12,6 +12,6 @@ public class BikeCommand implements Command{
 
     @Override
     public void execute() {
-        this.board.showBikeOmBoard();
+        this.board.showBikeOnBoard();
     }
 }
